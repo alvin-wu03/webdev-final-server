@@ -23,7 +23,7 @@ const Student = db.define("student", {
   },
 
   imageURL: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT('long'),
     defaultValue: ""
   },
 
